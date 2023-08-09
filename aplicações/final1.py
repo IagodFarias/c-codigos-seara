@@ -57,7 +57,7 @@ if __name__ == "__main__":
     smartgaga_thread = threading.Thread(target=open_smartgaga)
     smartgaga_thread.start()
     # Aguarde 12 segundos
-    time.sleep(12)
+    time.sleep(20)
      # Navega até a pasta platform-tools
     subprocess.run(f'cd /d {platform_tools_path}', shell=True)
     # Executa os comandos adb após abrir o SmartGaGa
